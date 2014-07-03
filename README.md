@@ -8,10 +8,15 @@ When given a fasta file, the program will count the number of <nucleotide> in gr
 E.g. 
 
 AAAAAGGGGTTTCC : Chunk = 4
+
 Counting Gs
+
 Chunk 1: AAAA : 0
+
 Chunk 2: AGGG : 3
+
 Chunk 3: GTTT : 1
+
 Chunk 4: CC   : 0
 
 Peaks in the data (chunks that are a single letter), can suggest the locations of certain motifs. 
