@@ -3,7 +3,7 @@ NucleotideFinder
 
 Nucleotide Finder uses the GRAL graphing library to display concentrations of nucleotides across a fasta file.
 
-When given a fasta file, the program will count the number of <nucleotide> in groups of <chunk>. 
+When given a fasta file, the program will count the number of (A,T,C,G) in groups of 0 .. 20. 
 
 E.g. 
 
